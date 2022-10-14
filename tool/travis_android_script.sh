@@ -15,6 +15,9 @@ function getFlutterPath() {
     done
 }
 
+
+
+
 readonly LOCAL_SDK_PATH=$(getFlutterPath)
 
 if [ -z "${LOCAL_SDK_PATH}" ]
